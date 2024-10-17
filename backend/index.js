@@ -1,5 +1,5 @@
 // declaring the port
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 // importing or initializing all the packages we installed
 const express = require("express");
