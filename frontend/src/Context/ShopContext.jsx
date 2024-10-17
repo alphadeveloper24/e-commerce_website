@@ -13,7 +13,7 @@ const getDefaultCart = () => {
 const ShopContextProvider = (props) => {
   const [all_product, setAll_Product] = useState([]);
   const [cartItems, setCartItems] = useState(getDefaultCart());
-  const backendUrl=process.env.REACT_APP_BACKEND_URL;
+  const backendUrl="https://e-commerce-backend-8spo.onrender.com";
 
   useEffect(() => {
     fetch(`${backendUrl}/allproducts`)
