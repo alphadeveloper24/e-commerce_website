@@ -26,7 +26,8 @@ const backendUrl = process.env.BACKEND_URL;
 const dbUser = process.env.DB_USER;
 const dbPassword = process.env.DB_PASSWORD;
 const dbName = process.env.DB_NAME;
-mongoose.connect(`mongodb+srv://${dbUser}:${dbPassword}@cluster0.hh0qjyj.mongodb.net/${dbName}?retryWrites=true&w=majority&appName=Cluster0`);
+mongoose.connect("mongodb+srv://varun_dev:varun2003@cluster0.5zrqa.mongodb.net/e-commerce")
+
 
 
 // API Creation
